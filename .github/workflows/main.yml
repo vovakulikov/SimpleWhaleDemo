@@ -23,7 +23,7 @@ jobs:
         name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: toptal/davinci
+          repository: vovakulikov/math-presentation
 
       -
         name: See where am I

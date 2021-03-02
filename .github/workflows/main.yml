@@ -18,12 +18,15 @@ jobs:
       - 
         name: Checkout
         uses: actions/checkout@v2
+        with:
+          path: ./own-demo-repo
 
       -
         name: Checkout
         uses: actions/checkout@v2
         with:
           repository: vovakulikov/math-presentation
+          path: ./math-presentation
 
       -
         name: See where am I

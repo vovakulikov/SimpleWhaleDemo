@@ -33,6 +33,11 @@ jobs:
       - name: See what we got
         run: ls -a
 
+      - name: CD to repo
+        run: cd ./math-presentation
+
+      - name: See what we got inside math pres repo
+        run: ls -a
 #      -
 #        name: Set up Docker Buildx
 #        id: buildx
